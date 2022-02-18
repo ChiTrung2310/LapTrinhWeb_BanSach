@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/Quang_cao/QC_01.gif</ImageUrl>
+    <NavigateUrl>https://www.thegioididong.com/</NavigateUrl>
+    <AlternateText>Thế giới di dộng</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Di động, mobile</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/Quang_cao/QC_02.gif</ImageUrl>
+    <NavigateUrl>https://vinaphone.com.vn/</NavigateUrl>
+    <AlternateText>Vinaphone</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Vinaphone, Internet, Truyền Hình</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/Quang_cao/QC_03.gif</ImageUrl>
+    <NavigateUrl>https://ntt.edu.vn/</NavigateUrl>
+    <AlternateText>Trường ĐH Nguyễn Tất Thành</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>NTT, NTTU, ĐH.NTT, Đại học Nguyễn Tất Thành</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/Quang_cao/QC_04.gif</ImageUrl>
+    <NavigateUrl>http://saigon-pearl.weebly.com/</NavigateUrl>
+    <AlternateText>Saigon Pearl</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Saigon Pearl, dự án căn hộ</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/Quang_cao/QC_05.gif</ImageUrl>
+    <NavigateUrl>http://damsenpark.vn/</NavigateUrl>
+    <AlternateText>Dam Sen Park</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Công viên văn hóa Đầm Sen, CVVH Đầm Sen, Phú Thọ Tourist</Keyword>
+  </Ad>
+  
+  
+  
+</Advertisements>

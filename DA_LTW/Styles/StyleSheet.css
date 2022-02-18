@@ -1,0 +1,118 @@
+﻿body {
+    font-family:Arial;
+}
+
+/*css của hearder*/
+
+.hearder-auto-style1 {
+    width: 100%;
+    background-image: linear-gradient(to right,#ffffff,#f7941e);
+}
+
+.hearder-auto-style2{
+    width:275px;
+    height:100px;
+    float:left;
+}
+
+.hearder-auto-style3{
+    width: 498px;
+    height: 78px;
+    float: right;
+}
+
+/*css của footer*/
+
+.footer-auto-style1 {
+    width: 100%;
+    color: #ffffff;
+    background-color:#ffd800;
+    text-align: center;
+    font-style:italic;
+    font-size: small;
+}
+
+.footer-auto-style1 a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.footer-auto-style1 a:hover{
+    text-decoration: underline;
+}
+
+/*css của menu*/
+
+.menu-auto-style1 {
+    color: #000000;
+    width: 100%;
+    background-color: #f7941e;
+}
+
+.menu-auto-style1 a{
+    color: #333;
+    text-decoration:none;
+    font-size:small;
+    font-weight:bold;
+}
+
+.menu-auto-style1 a:hover{
+   text-decoration: underline;
+}
+
+/*css của chủ đề*/
+
+.chude-auto-style1{
+   background-color:#e2df60;
+   color:#656565;
+   padding:10px;
+   margin:0px;
+}
+
+
+.chude-auto-style2 {
+    width: 170px;
+    background-color: #ffd800;
+    font-size: small;
+}
+
+.chude-auto-style2 a {
+    text-decoration: none;
+}
+
+.chude-auto-style2 a:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+/*css của sách mới*/
+
+.sachmoi-auto-style1{
+    width:100%;
+
+}
+
+.sachmoi-auto-style2{
+    width:420px;
+    height:51px;
+}
+
+
+/*css giỏ hàng*/
+.giohang-auto-style1{
+
+}
+.qc-phai{
+    background-color:#f7941e;
+    padding: 5px 0;
+    margin: 0;
+    color: #333;
+}
+
+.sach-ban-chay-tieu-de {
+    background-color: orange;
+    padding: 5px 0;
+    margin: 0;
+    color: white;
+}
+

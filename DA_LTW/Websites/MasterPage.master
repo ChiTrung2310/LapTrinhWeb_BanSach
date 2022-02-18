@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Websites_MasterPage" %>
+
+<%@ Register src="../The_Hien/TH_HEADER.ascx" tagname="TH_HEADER" tagprefix="uc1" %>
+<%@ Register src="../The_Hien/TH_MENU.ascx" tagname="TH_MENU" tagprefix="uc2" %>
+<%@ Register src="../The_Hien/TH_FOOTER.ascx" tagname="TH_FOOTER" tagprefix="uc3" %>
+<%@ Register src="../The_Hien/TH_CHUDE.ascx" tagname="TH_CHUDE" tagprefix="uc4" %>
+
+<%@ Register src="../The_Hien/TH_SACHMOI.ascx" tagname="TH_SACHMOI" tagprefix="uc5" %>
+
+<%@ Register src="../The_Hien/TH_GIOHANG.ascx" tagname="TH_GIOHANG" tagprefix="uc6" %>
+
+<%@ Register src="../The_Hien/TH_QC_PHAI.ascx" tagname="TH_QC_PHAI" tagprefix="uc7" %>
+<%@ Register src="../The_Hien/TH_SACH_BANCHAY.ascx" tagname="TH_SACH_BANCHAY" tagprefix="uc8" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  
+    <asp:ContentPlaceHolder id="head" runat="server">
+          <title></title>
+         
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 80%;
+            background-color: #E9EDF0;
+        }
+
+        h4.chude-auto-style1 {
+            background:black;
+            color: #ffffff;
+        }
+        .menu-auto-style1{
+        background-color:#f7941e;
+        color:#000000;
+        }
+
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" cellpadding="2" cellspacing="0" class="auto-style1">
+            <tr>
+                <td colspan="3">
+                    <uc1:TH_HEADER ID="TH_HEADER1" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <uc2:TH_MENU ID="TH_MENU1" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%; vertical-align:top">
+                    <uc4:TH_CHUDE ID="TH_CHUDE1" runat="server" />
+                </td>
+                <td style="width:80%; vertical-align:top">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+
+                </td>
+                <td style="width:10%;vertical-align:top">
+                    
+                    <uc6:TH_GIOHANG ID="TH_GIOHANG1" runat="server" />
+                    
+                    <uc7:TH_QC_PHAI ID="TH_QC_PHAI1" runat="server" />
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <uc3:TH_FOOTER ID="TH_FOOTER1" runat="server" />
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>
